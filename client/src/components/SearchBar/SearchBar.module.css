@@ -1,0 +1,31 @@
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+
+.container{
+    margin: 1em 0;
+}
+
+.input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid #110f29;
+    padding: 1em 0.3em;
+}
+
+.input:focus{
+    border-bottom-color: #6759ff;
+}
+
+.button{
+    padding: 1em 2em;
+    margin-left: 1em;
+    background-color: #6759ff;
+    transition: all;
+}
+.button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

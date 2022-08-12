@@ -1,0 +1,155 @@
+
+.wrap{
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+    overflow: hidden;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    translate: (-50%,-50%);
+    background: wheat;
+    border-radius: 7px;
+    box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.6);
+    background-color: RGBA(255, 255, 255, 0.3);
+    backdrop-filter: blur(12px);
+    transition: all .3s ease-in-out;
+}
+
+.wrap:hover{
+    transform: scale(1.1);
+}
+
+.imgDiv{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+/* .imgDiv::before{
+    content: '';
+    position: absolute;
+    border-top: 30px solid transparent;
+} */
+.imgDiv img{
+    width: 100%;
+    height: 200px;
+}
+h1{
+    margin: .5em 0;
+}
+
+.tit{
+    width: 100%;
+    height: 90px !important;
+    /* background-color: rgb(31, 31, 45); */
+    margin: .5em 0;
+}
+
+.dit{
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    /* background-color: blueviolet; */
+}
+
+.diet {
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid #999;
+}
+
+.h1 {
+
+    display: inherit;
+    margin: 10 px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #555;
+    text-shadow: 1px 1px 2px black;
+}
+
+h1:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #c7c7c7;
+    margin: 20px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .wrap{
+    
+    width: 30%;
+    height: 400px;
+    margin: 200px 10px 0px 10px;
+    transition: 0.5 all;
+    background-color: whitesmoke;
+    color: rebeccapurple;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    float: left;
+}
+
+.h1{
+    
+    display: inherit;
+    margin: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #555;
+    text-shadow: 1px 1px 2px black;
+}
+h1:after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #c7c7c7;
+    margin: 20px 0;
+    
+}
+
+.imgDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    bottom: 41%;
+    width: 75%;
+    height: 85%;
+    border-radius: 50px 20px 0 20px;
+
+    overflow: hidden;
+    box-shadow: 0 1px 0 #00000020, -1px 0 0 #ccc;
+
+    z-index: 1;
+    
+}
+
+.diet{
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 1px solid #999;
+}  /////////////////////////////////////////////////////////////////////////////////////////*/
+
+
